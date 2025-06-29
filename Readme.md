@@ -1,6 +1,23 @@
+### 🧪 Testing the FastAPI Image Classifier
+
+
+### 📤 Image - Testing on FastAPI:
+🖼️ `dog-test.png`  
+_Original path: `C:\Users\sanap\Downloads\dog-test.png`_
+
+![Input - Test Image](dog-test.png)
+
+### 📥 Image - GUI:
+🎯 **Classified as:** `poodle`  
+_Original path: `C:\Users\sanap\Downloads\classified-image.png`_
+
+![Output - Classified Result](classified-image.png)
+
+---
+
 ### Tried PyQt for the first time and this all problems that i faced:
 
-#### ⚔️ Round 1: CMake and Compiler Chaos
+### ⚔️ Round 1: CMake and Compiler Chaos
 I ran:
 
 cmake .. -G "MinGW Makefiles" -DCMAKE_PREFIX_PATH="C:/Qt/6.9.1/mingw_64/lib/cmake"
@@ -16,7 +33,7 @@ Needed to specify "MinGW Makefiles" instead of default NMake
 
 ✅ Fix: Added C:\Qt\Tools\mingw1310_64\bin to PATH and reconfigured.
 
-#### Round 2: The Invisible GUI
+### Round 2: The Invisible GUI
 Even after building successfully, running .exe did... nothing. No errors, no window. Silent fail.
 
 I later realized:
@@ -34,7 +51,7 @@ mingw32-make
 .\ImageClassifierApp.exe
 Boom 💥 — GUI appeared.
 
-#### Round 3: QML Modules Missing
+### Round 3: QML Modules Missing
 As soon as I added a file dialog to QML, new errors flooded in:
 
 module "QtQuick.Dialogs" is not installed
