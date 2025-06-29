@@ -2,13 +2,13 @@
 
 ### 📤 Image - Testing on FastAPI:
 🖼️ `dog-test.png`  
-_Original path: `C:\Users\sanap\Downloads\dog-test.png`_
+
 
 ![dog-test](https://github.com/user-attachments/assets/f011e2ec-65ed-45cf-b6d1-dc7a30ebf6f3)
 
 ### 📥 Image - GUI:
 🎯 **Classified as:** `poodle`  
-_Original path: `C:\Users\sanap\Downloads\classified-image.png`_
+
 ![classified-image](https://github.com/user-attachments/assets/8b84b78a-a84f-4891-ac32-db22dbbca25d)
 
 ---
