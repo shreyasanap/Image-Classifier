@@ -1,6 +1,6 @@
-Tried PyQt for the first time and this all problems that i faced:
+### Tried PyQt for the first time and this all problems that i faced:
 
-⚔️ Round 1: CMake and Compiler Chaos
+#### ⚔️ Round 1: CMake and Compiler Chaos
 I ran:
 
 cmake .. -G "MinGW Makefiles" -DCMAKE_PREFIX_PATH="C:/Qt/6.9.1/mingw_64/lib/cmake"
@@ -16,7 +16,7 @@ Needed to specify "MinGW Makefiles" instead of default NMake
 
 ✅ Fix: Added C:\Qt\Tools\mingw1310_64\bin to PATH and reconfigured.
 
-😶 Round 2: The Invisible GUI
+#### Round 2: The Invisible GUI
 Even after building successfully, running .exe did... nothing. No errors, no window. Silent fail.
 
 I later realized:
@@ -34,7 +34,7 @@ mingw32-make
 .\ImageClassifierApp.exe
 Boom 💥 — GUI appeared.
 
-❌ Round 3: QML Modules Missing
+#### Round 3: QML Modules Missing
 As soon as I added a file dialog to QML, new errors flooded in:
 
 module "QtQuick.Dialogs" is not installed
@@ -58,7 +58,7 @@ Manually prefixed the image path with file:/// before previewing
 
 Made sure backend.imagePath was a valid URL for QML
 
-Victory: GUI Finally Functional
+#### 🏆 Victory: GUI Finally Functional
 After struggling through:
 
 CMake config failures
