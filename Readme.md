@@ -83,12 +83,8 @@ Missing modules
 
 Path format errors
 
-The GUI now:
-
-Loads perfectly
-
-Accepts image input
-
-Previews the image
-
-Connects with backend for classification
+### ✅ Current Features
+- Fully working GUI built with PyQt/QML
+- Allows users to upload images from their system
+- Provides real-time image preview after selection
+- Integrates with backend API for image classification
